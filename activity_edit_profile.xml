@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/baground_mybooks">
+
+    <ImageView
+        android:id="@+id/imageViewProfileEdit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_account_box_24"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:hint="Nama Baru"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:hint="Email Baru"
+        android:layout_marginBottom="24dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
