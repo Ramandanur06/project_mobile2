@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyBooks</string>
+    <string name="daftar_buku">Daftar Buku</string>
+    <string name="mybooks">MyBooks</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_author">Book Author</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="passwordd">Password</string>
+    <string name="registerr">Register</string>
+    <string name="tambah_buku">Tambah Buku</string>
+    <string name="Tambah_buku">Tambah Buku</string>
+</resources>
